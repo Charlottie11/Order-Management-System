@@ -38,7 +38,7 @@ public abstract class Order {
         }
     }
 
-    protected void setStatus(OrderStatus status) {
+    public void setStatus(OrderStatus status) {
         this.status = status;
     }
 
@@ -47,4 +47,5 @@ public abstract class Order {
         setStatus(OrderStatus.CANCELLED);
     }
 }
+
 
